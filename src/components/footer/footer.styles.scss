@@ -1,0 +1,34 @@
+@import "variables";
+
+.footer {
+  background-color: $yellow-primary;
+  padding-top: 1rem;
+
+  .container {
+    background-color: $blue-primary;
+    color: $white;
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 1.5fr;
+
+    .info {
+      span {
+        width: 70%;
+        display: block;
+        font-size: smaller;
+      }
+    }
+
+    .options {
+      display: flex;
+      flex-direction: column;
+      color: $white;
+      font-weight: 14px;
+
+      a {
+        color: $white;
+        font-size: 14px;
+      }
+    }
+  }
+}
