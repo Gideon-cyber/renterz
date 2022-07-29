@@ -9,11 +9,15 @@
     color: $white;
     padding: 5rem;
     display: grid;
-    grid-template-columns: 1fr 0.8fr 1.5fr;
+    grid-template-columns: 1.3fr 0.8fr 1fr;
+
+    h3 {
+      margin-top: 0;
+    }
 
     .info {
       span {
-        width: 70%;
+        width: 50%;
         display: block;
         font-size: smaller;
       }
@@ -22,12 +26,46 @@
     .options {
       display: flex;
       flex-direction: column;
+      gap: 10px;
       color: $white;
       font-weight: 14px;
 
       a {
         color: $white;
         font-size: 14px;
+        font-weight: 600;
+      }
+    }
+
+    .forms {
+      span {
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-block;
+        margin-bottom: 0.625rem;
+      }
+
+      form {
+        display: flex;
+        align-items: center;
+      }
+
+      .form-input {
+        outline: none;
+        padding: 12px 10px;
+        border: none;
+        border-bottom-left-radius: 10px;
+        width: 300px;
+        font-family: "Rubik", sans-serif;
+      }
+
+      .form-button {
+        padding: 12.2px;
+        border-top-right-radius: 10px;
+        background-color: $red-primary;
+        color: $white;
+        font-family: "Rubik", sans-serif;
+        border: none;
       }
     }
   }
