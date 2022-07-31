@@ -1,0 +1,19 @@
+@import "variables";
+
+.explore {
+  background-color: $red-primary;
+  color: $white;
+  padding: 0.7rem 0.925rem;
+  font-size: 0.825rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+
+  span {
+    margin-right: 10px;
+  }
+}
