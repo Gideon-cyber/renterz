@@ -10,10 +10,23 @@
   align-items: center;
   justify-content: space-evenly;
   cursor: pointer;
+  font-family: "Rubik", sans-serif;
+
   text-transform: uppercase;
   border: none;
 
   span {
     margin-right: 10px;
   }
+}
+
+.loginbtn {
+  background-color: $blue-primary;
+  color: $white;
+  padding: 1.25rem 0;
+  border-radius: 0.8125rem;
+  font-weight: 600;
+  text-transform: none;
+  box-shadow: 2px 1px 10px rgba(34, 34, 34, 0.212);
+  font-family: "Rubik", sans-serif;
 }

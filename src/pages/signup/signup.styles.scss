@@ -1,0 +1,29 @@
+@import "variables";
+
+.signupPage {
+  padding: 3.5rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $background;
+
+  h2 {
+    text-transform: uppercase;
+    color: $blue-primary;
+    margin: 0 0 2rem 0;
+  }
+
+  .form-box {
+    padding: 3.5rem;
+    background-color: $white;
+    border-radius: 0.6125rem;
+    box-shadow: 2px 1px 10px rgba(34, 34, 34, 0.212);
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}

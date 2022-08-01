@@ -1,0 +1,35 @@
+@import "variables";
+
+label {
+  font-size: 0.825rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.form-field {
+  position: relative;
+  margin-bottom: 2rem;
+
+  input {
+    padding: 1.25rem 1rem 1.25rem 3.5rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 0.825rem;
+    box-shadow: 2px 1px 10px rgba(34, 34, 34, 0.212);
+    font-family: "Rubik", sans-serif;
+    background: none;
+    background-color: $white;
+    margin-top: 0.8125rem;
+  }
+
+  .icon {
+    height: 1rem;
+    position: absolute;
+    left: 1.2rem;
+    bottom: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
